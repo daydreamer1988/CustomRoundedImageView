@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:minicup="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="common.com.customroundedimageview.MainActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+
+    android:layout_height="match_parent">
+
+    <common.com.customroundedimageview.RoundedImageView
+        android:id="@+id/iv1"
+        android:layout_marginTop="10dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/a2"
+        minicup:type="circle"
+        android:elevation="10dp"
+        minicup:borderWidth="3dp"
+        minicup:borderColor="@color/colorAccent"
+        />
+
+    <common.com.customroundedimageview.RoundedImageView
+        android:id="@+id/iv2"
+        android:layout_marginTop="10dp"
+        android:layout_width="100dp"
+        android:layout_height="200dp"
+        android:src="@drawable/a1"
+        minicup:type="circle"
+        minicup:borderWidth="5dp"
+        minicup:borderColor="@color/colorPrimary"
+        />
+
+    <common.com.customroundedimageview.RoundedImageView
+        android:layout_marginTop="10dp"
+        android:layout_width="100dp"
+        android:layout_height="200dp"
+        android:src="@drawable/a1"
+        minicup:borderWidth="10dp"
+        minicup:cornerRadius="20dp"
+
+        />
+
+    <common.com.customroundedimageview.RoundedImageView
+        android:layout_marginTop="10dp"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:src="@drawable/a1"
+        minicup:borderWidth="10dp"
+        minicup:cornerRadius="20dp"
+        />
+
+
+    <common.com.customroundedimageview.RoundedImageView
+        android:layout_marginTop="10dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@color/colorAccent"
+        minicup:type="circle"
+        minicup:borderWidth="10dp"
+
+        minicup:cornerRadius="10dp"
+        />
+
+
+
+    <common.com.customroundedimageview.RoundedImageView
+        android:layout_marginTop="10dp"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:src="@color/colorAccent"
+        minicup:type="rounded"
+        minicup:borderWidth="10dp"
+        minicup:cornerRadius="20dp"
+        />
+
+
+    <common.com.customroundedimageview.RoundedImageView
+        android:layout_marginTop="10dp"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:src="@color/colorAccent"
+        minicup:type="rounded"
+        minicup:borderWidth="10dp"
+
+        minicup:cornerRadius="50dp"
+        />
+
+    <common.com.customroundedimageview.RoundedImageView
+        android:layout_marginTop="10dp"
+        android:layout_width="100dp"
+        android:layout_height="200dp"
+        android:src="@color/colorAccent"
+        minicup:type="rounded"
+        minicup:borderWidth="10dp"
+
+        minicup:cornerRadius="50dp"
+        />
+
+
+
+
+</LinearLayout>
+</ScrollView>
